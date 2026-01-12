@@ -1,5 +1,6 @@
-import LogoSection from "./components/LogoSection";
+import LogoSection from "./sections/LogoSection";
 import NavBar from "./components/NavBar";
+import FeatureCards from "./sections/FeatureCards";
 import Hero from "./sections/Hero";
 import ShowcaseSection from "./sections/ShowcaseSection";
 import gsap from "gsap";
@@ -14,6 +15,7 @@ const App = () => {
         <Hero />
         <ShowcaseSection />
         <LogoSection />
+        <FeatureCards />
     </main>
   )
 }
