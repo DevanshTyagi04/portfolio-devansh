@@ -1,10 +1,9 @@
+import Hero from "./components/Hero"
 
 const App = () => {
   return (
     <main>
-        <div>
-            <h1>Welcome to my Portfolio</h1>
-        </div>
+        <Hero />
     </main>
   )
 }
