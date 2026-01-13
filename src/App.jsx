@@ -8,6 +8,7 @@ import { ScrollTrigger, SplitText } from "gsap/all";
 import ExperienceSection from "./sections/ExperienceSection";
 import TechStack from "./sections/TechStack";
 import Testimonials from "./sections/Testimonials";
+import Contact from "./sections/Contact";
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
@@ -22,6 +23,7 @@ const App = () => {
         <ExperienceSection />
         <TechStack />
         <Testimonials />
+        <Contact />
     </main>
   )
 }
